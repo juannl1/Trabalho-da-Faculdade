@@ -44,37 +44,39 @@ p.poema {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 30px;
 }
-
-footer {
-    width: 100%;    
-    background-color: black;
-    height: 200px;
+#avancar {
+    text-indent: 100px;
 }
 a {
     color: white;
     text-decoration: none;
     font-size: 33px;
     padding-left: 70px;
-    padding-right: 70px;
+    padding-right: 90px;
     transition: 0.6zs;
-
+    
 }
 a:hover {
     transition: 0.6s;
-
+    
     background-color: wheat;
     color: black;
-
+    
     padding-top: 40px;
     padding-bottom: 40px;
     border-radius: 30px;
-
+    
 }
 li.avancando_paginas {
     padding-top: 90px;
     margin-left: 80px;
     display: inline-block;
     color: white;
+}
+footer {
+    width: 100%;    
+    background-color: black;
+    height: 200px;
 }
 
 
