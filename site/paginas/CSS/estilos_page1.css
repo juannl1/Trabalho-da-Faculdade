@@ -2,10 +2,10 @@
     padding: 0px;
     margin: 0px;
     
-    
 }
 body {
     background-image: linear-gradient(to right, #334766, #28303C);
+    transition: 1s;
 }
 header {
     display: grid;
@@ -47,16 +47,16 @@ p.poema {
 #avancar {
     text-indent: 100px;
 }
-a {
+a.links{
     color: white;
     text-decoration: none;
     font-size: 33px;
     padding-left: 70px;
     padding-right: 90px;
-    transition: 0.6zs;
+    transition: 0.6s;
     
 }
-a:hover {
+a.links:hover {
     transition: 0.6s;
     
     background-color: wheat;
@@ -67,7 +67,7 @@ a:hover {
     border-radius: 30px;
     
 }
-li.avancando_paginas {
+li.links_direcionais_de_paginas {
     padding-top: 90px;
     margin-left: 80px;
     display: inline-block;
