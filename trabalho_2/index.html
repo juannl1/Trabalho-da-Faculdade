@@ -3,36 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/css_da_pag1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Página Inicial</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre Mim</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
+        <nav class="container_nav">
+            <li id="nome_nav" style="flex-grow: 1;">Juan Lemos <text>Estudante de ADS</text></li>
+            <li class="links_navegacao"><a href="">Contato</a></li>
+            <li class="links_navegacao"><a href="">Projetos</a></li>
+            <li class="links_navegacao"><a href="">Sobre</a></li>
+            <li>
+                <li>
+                    <a href="https://www.instagram.com/juan.lemos0/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/juannl1" target="_blank">
+                    <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </li>
+            
         </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <h1>Bem-vindo ao Meu Portfólio!</h1>
-            <p>Sou um desenvolvedor web apaixonado por criar soluções inovadoras.</p>
-        </section>
-
-        <section class="intro">
-            <h2>Quem sou eu?</h2>
-            <p>Descubra mais sobre minha jornada e experiência.</p>
-            <a href="sobre.html">Saiba mais sobre mim</a>
-        </section>
+        <div id="conteudo"">
+            <div id="foto_de_perfil">
+                <img src="img/_MG_6517.CR3" alt="">  <!-- Foto provisória -->
+            </div>
+            <div id="introducao_sobre_min">
+                <h1>Olá!</h1>
+                <p>
+                    Me chamo Juan e atualmente curso <strong>Análise e Desenvolvimento de Sistemas</strong> na <a href="https://univassouras.edu.br/" style="color: blue;">Universidade Univassouras</a>. Estou sempre buscando aprender, praticar e evoluir minhas habilidades. Meu objetivo é ingressar profissionalmente na área de TI
+                </p>
+                <nav id="botao_clicaveis">
+                    <ul class="menu">
+                        <li class="botoes">Contato</li>
+                        <li class="botoes">Projetos</li>
+                        <li class="botoes">Sobre</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </main>
-
     <footer>
-        <p>&copy; 2025 Meu Portfólio</p>
-    </footer>
+        <ul id="container_rodape">
+            <li>
+                <strong>Telefone</strong>
+                <ul>
+                    <li>(21) 972322550</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Email</strong>
+                <ul>
+                    <li>jlemos329@gmail.com</li>
+                </ul>
+            </li>
+            <li id="creditos_do_site">
+                &copy; 2025 Site criado por Juan Lemos.
+            </li>
+        </ul>
+        
+</footer>
 </body>
 </html>

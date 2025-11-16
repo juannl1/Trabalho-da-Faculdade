@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body {
+    background-image: linear-gradient(to right, #46587A, #7989A5);
+    font-family: Work Sans,Arial, sans-serif;
+}
+/* Configurações do Header */
+nav.container_nav {
+    
+    padding-bottom: 1.5em;
+
+    list-style: none;
+    gap: 20px;
+    display: flex;
+
+}
+li#nome_nav {
+    font-size: 1.6em;
+    padding-top: 16px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header > nav > li > text {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li.links_navegacao {
+    font-size: 1.2em;
+    padding-top: 22px;
+}
+i.fa-github, i.fa-instagram{
+    color: black;
+    padding-right: 20px;
+    font-size: 1.8em;
+
+}
+.social {
+  display: flex;
+  gap: 20px;
+}
+
+.social i , a {
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.social a, i:hover {
+  color: #ccc;
+}
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover{
+    color: white;
+    transition: 0.5s;
+
+}
+/* Configurações do Header finalizadas */
+
+/* Começando Configurações do Main */
+
+div#conteudo{
+    padding: 10px;
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+main > div#conteudo > div#foto_de_perfil > img {
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px 0px;
+    
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    padding-bottom: 30px;
+}
+div#introducao_sobre_min {
+    width: 300px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;          
+    list-style: none; 
+    padding: 0px;
+    margin: 0px;
+    padding-top: 1.2em;
+}
+
+.menu li {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+li.botoes {
+    background-color: #203150;
+    color: white;
+    transition: 0.2s;
+}
+li.botoes:hover {
+    transition: 0.8s;
+    color: white;
+    background-color: black;
+}
+
+/* Finalizando o main (Conteúdo do site) */
+
+/* Começando o footer */
+
+footer {
+    margin-top: 28vh;
+    height: 40vh;
+    background-color: #252E40;
+    font-size: 1.3em;
+    
+}
+ul#container_rodape {
+
+    display: flex;
+    gap: 1.6em;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+    
+}
+footer > ul,li {
+    padding-top: 1.4em;
+    list-style: none;
+    
+}
+footer > ul > li >strong {
+    font-family: Work Sans,Arial, sans-serif;
+}
+
+/* Finalizando o footer */
