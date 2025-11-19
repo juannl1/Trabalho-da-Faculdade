@@ -5,7 +5,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: Work Sans, Arial, Helvetica, sans-serif;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
 }
 body {
     background-color: #87A1CA;
@@ -67,11 +67,11 @@ a:hover{
 }
 /* Configurações do Header finalizadas */
 
-/* Configurações da section 1 "Projetos" */
+/* Configurações dos "Projetos" */
 
 section {
 
-    margin: 152px 30px 30px 30px;
+    margin: 152px 30px 0px 30px;
     
     display: flex;
     justify-content: center;
@@ -80,33 +80,43 @@ section {
 }
 
 article {
-    border: 1px solid black;
-    width: 1350px;
+    width: 1250px;
 
     padding: 30px;
 
 }
 div.projetos {
     padding-bottom: 190px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
-div.conteudo > h1{
+div.conteudo > h1 {
     padding-bottom: 102px;
     font-size: 3em;
 }
 div.conteudo > h2 {
     padding-bottom: 24px;
+    font-family: Poppins, Geneva, Tahoma, sans-serif;
 }
 div.conteudo > p {
-    width: 580px;
+    width: 500px;
+    margin-bottom: 24px;
 }
-div.projetos {
+img {
+    border-radius: 24px;
+    
+}
+div.imgs {
+    border-radius: 200px;
+
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 16px;
 
 }
-
-
 
 
 @media (max-width: 1368px) {
@@ -116,3 +126,34 @@ div.projetos {
     }
     
 }
+/* Finalizando estilização dos "Projetos" */
+
+/* Começando o footer */
+
+footer {
+    margin-top: 10vh;
+    height: 45vh;
+    background-color: #252E40;
+    font-size: 1.5em;
+    
+}
+ul#container_rodape {
+
+    display: flex;
+    gap: 1.6em;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+    
+}
+footer > ul,li {
+    padding-top: 1.4em;
+    list-style: none;
+    
+}
+footer > ul > li >strong {
+    font-family: Work Sans,Arial, sans-serif;
+}
+
+/* Finalizando o footer */
+

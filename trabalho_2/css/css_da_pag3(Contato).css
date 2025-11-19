@@ -1,0 +1,121 @@
+/* Importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Fonte padrão */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Work Sans', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #87A1CA;
+    padding: 20px;
+}
+
+/* HEADER */
+nav.container_nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding-bottom: 1.5em;
+}
+
+li#nome_nav {
+    font-size: 1.6em;
+    padding-top: 16px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > nav > li > span {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+li.links_navegacao {
+    font-size: 1.2em;
+    padding-top: 22px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: white;
+}
+
+/* Ícones sociais */
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social i,
+.social a {
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.social i:hover,
+.social a:hover {
+    color: #ccc;
+}
+
+i.fa-github, 
+i.fa-instagram {
+    color: black;
+    padding-right: 20px;
+    font-size: 1.8em;
+}
+
+/* CONTEÚDO / FORMULÁRIO */
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #555;
+}
