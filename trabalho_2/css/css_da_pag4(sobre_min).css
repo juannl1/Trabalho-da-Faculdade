@@ -1,15 +1,15 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
     
 }
-
 body {
     background-image: linear-gradient(to right, #46587A, #7989A5);
     font-family: 'Work Sans',Arial, sans-serif;
 }
-/* Configurações do Header */
 nav.container_nav {
     
     padding-bottom: 1.5em;
@@ -56,88 +56,41 @@ i.fa-github, i.fa-instagram{
 }
 
 .social a, i:hover {
-  color: #ccc;
+  color: rgb(204, 204, 204);
 }
 a {
     color: black;
     text-decoration: none;
-    transition: 0.5s;
-}
-a:hover{
-    color: white;
-    transition: 0.5s;
-
-}
-/* Configurações do Header finalizadas */
-
-/* Começando Configurações do Main */
-
-div#conteudo{
-    padding: 10px;
-    margin-top: 100px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    flex-wrap: wrap;
-}
-
-main > div#conteudo > div#foto_de_perfil > img {
-    width: 480px;
-    height: 480px;
-    border-radius: 50%;
-    border: 1px solid black;
-    box-shadow: 0px 0px 20px 0px;
+    transition: 0.2s;
     
 }
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 90px;
-    padding-bottom: 30px;
+a:hover{
+    color: blue;
+    transition: 0.2s;
+    text-decoration: underline;
+    
 }
-div#introducao_sobre_min {
-    width: 350px;
-}
+/* Configurações do Header finalizadas*/
 
-.menu {
-    display: flex;
-    gap: 20px;    
 
-    list-style: none; 
-
-    padding: 0px;
-    margin: 0px;
-    padding-top: 1.2em;
-}
-
-.menu li {
-    padding: 10px 20px;
-    border: 1px solid black;
-    border-radius: 50%;
-
-    width: 50px;
-    height: 50px;
-
+section {
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
+    justify-items: center;
 }
+div#conteudo {
+    border-radius: 40px;
+    background-color: white;
 
-li.botoes {
-    background-color: #203150;
-    color: white;
-    transition: 0.2s;
-}
-li.botoes:hover {
-    transition: 0.8s;
-    color: white;
-    background-color: black;
-}
+    width: 1200px;
 
-/* Finalizando o main (Conteúdo do site) */
+    padding: 4rem;
+    margin-top: 5rem;
+}
+div#conteudo > p {
+    font-size: 30px;
+    text-indent: 30px;
+}
 
 /* Começando o footer */
 
