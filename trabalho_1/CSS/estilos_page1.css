@@ -2,29 +2,34 @@
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
+
 body {
     background-image: linear-gradient(to right, #334766, #28303C);
     transition: 1s;
 }
+
 header {
     display: grid;
-    place-items: center;      /* Centraliza tanto horizontal quanto vertical */
+    place-items: center;
+    /* Centraliza tanto horizontal quanto vertical */
 
     background-color: #2B2E33;
     height: 150px;
     width: 100%;
-    
+
 
 }
+
 h1.titulo_principal {
     font-size: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: yellow;
     text-shadow: black -3px 2px 12px;
-    
+
 }
+
 main {
     width: 500px;
     margin: 40px auto 40px auto;
@@ -45,38 +50,42 @@ p.poema {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 30px;
 }
+
 #avancar {
     text-indent: 100px;
 }
-a.links{
+
+a.links {
     color: white;
     text-decoration: none;
     font-size: 33px;
     padding-left: 70px;
     padding-right: 90px;
     transition: 0.6s;
-    
+
 }
+
 a.links:hover {
     transition: 0.6s;
-    
+
     background-color: wheat;
     color: black;
-    
+
     padding-top: 40px;
     padding-bottom: 40px;
     border-radius: 30px;
-    
+
 }
+
 li.links_direcionais_de_paginas {
     padding-top: 90px;
     margin-left: 80px;
     display: inline-block;
     color: white;
 }
+
 footer {
-    width: 100%;    
+    width: 100%;
     background-color: black;
     height: 200px;
 }
-

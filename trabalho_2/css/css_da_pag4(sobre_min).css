@@ -1,25 +1,27 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     padding: 0px;
     margin: 0px;
-    
+
 }
+
 body {
     background-image: linear-gradient(to right, #46587A, #7989A5);
-    font-family: 'Work Sans',Arial, sans-serif;
+    font-family: 'Work Sans', Arial, sans-serif;
 }
+
 nav.container_nav {
-    
+
     padding-bottom: 1.5em;
 
     list-style: none;
-    
+
     display: flex;
     gap: 20px;
 
 }
+
 li#nome_nav {
     font-size: 1.6em;
     padding-top: 16px;
@@ -27,49 +29,59 @@ li#nome_nav {
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header > nav > li > span {
+
+header>nav>li>span {
     font-size: 14px;
     font-weight: normal;
     font-family: Poppins, Geneva, Tahoma, sans-serif;
 }
+
 li.links_navegacao {
     font-size: 1.2em;
     padding-top: 22px;
 
     /* O "Curriculo" está com css inline. padding-right: 26px; */
 }
-i.fa-github, i.fa-instagram{
+
+i.fa-github,
+i.fa-instagram {
     color: black;
     padding-right: 20px;
     font-size: 1.8em;
 
 }
+
 .social {
-  display: flex;
-  gap: 20px;
+    display: flex;
+    gap: 20px;
 }
 
-.social i , a {
-  color: white;
-  cursor: pointer;
-  transition: 0.2s;
+.social i,
+a {
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
-.social a, i:hover {
-  color: rgb(204, 204, 204);
+.social a,
+i:hover {
+    color: rgb(204, 204, 204);
 }
+
 a {
     color: black;
     text-decoration: none;
     transition: 0.2s;
-    
+
 }
-a:hover{
+
+a:hover {
     color: blue;
     transition: 0.2s;
     text-decoration: underline;
-    
+
 }
+
 /* Configurações do Header finalizadas*/
 
 
@@ -78,6 +90,7 @@ section {
     justify-content: center;
     justify-items: center;
 }
+
 div#conteudo {
     border-radius: 40px;
     background-color: white;
@@ -87,7 +100,8 @@ div#conteudo {
     padding: 4rem;
     margin-top: 5rem;
 }
-div#conteudo > p {
+
+div#conteudo>p {
     font-size: 30px;
     text-indent: 30px;
 }
@@ -99,8 +113,9 @@ footer {
     height: 40vh;
     background-color: #252E40;
     font-size: 1.5em;
-    
+
 }
+
 ul#container_rodape {
 
     display: flex;
@@ -108,15 +123,18 @@ ul#container_rodape {
     justify-content: space-evenly;
     align-items: center;
     flex-flow: wrap;
-    
+
 }
-footer > ul,li {
+
+footer>ul,
+li {
     padding-top: 1.4em;
     list-style: none;
-    
+
 }
-footer > ul > li >strong {
-    font-family: Work Sans,Arial, sans-serif;
+
+footer>ul>li>strong {
+    font-family: Work Sans, Arial, sans-serif;
 }
 
 /* Finalizando o footer */

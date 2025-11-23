@@ -2,16 +2,19 @@
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
+
 body {
     background-image: linear-gradient(to right, #F2D3AC, #D9AB73, #734F2F);
 }
+
 header {
     background-image: linear-gradient(to left, #40180A, #734F2F);
     height: 250px;
 
 }
+
 h1#titulo_principal {
     color: #D9AB73;
     text-shadow: -8px 4px black;
@@ -20,6 +23,7 @@ h1#titulo_principal {
     padding-top: 65px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 main {
     width: 600px;
     padding: 50px;
@@ -27,13 +31,14 @@ main {
     border-radius: 10px;
     margin: 40px auto 40px auto;
 
-    
+
 }
 
 section {
     display: grid;
     place-items: center;
 }
+
 img {
     width: 300px;
     height: 300px;
@@ -49,34 +54,38 @@ img {
 #avancar {
     text-indent: 220px;
 }
-a.links{
+
+a.links {
     color: white;
     text-decoration: none;
     font-size: 33px;
     padding-left: 70px;
     padding-right: 90px;
     transition: 0.6s;
-    
+
 }
+
 a.links:hover {
     transition: 0.6s;
-    
+
     background-color: wheat;
     color: black;
-    
+
     padding-top: 40px;
     padding-bottom: 40px;
     border-radius: 30px;
-    
+
 }
+
 li.links_direcionais_de_paginas {
     padding-top: 90px;
     margin-left: 80px;
     display: inline-block;
     color: white;
 }
+
 footer {
-    width: 100%;    
+    width: 100%;
     background-color: black;
     height: 200px;
 }
