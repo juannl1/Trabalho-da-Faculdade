@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+nav.container_nav {
+    
+    padding-bottom: 1.5em;
+
+    list-style: none;
+    
+    display: flex;
+    gap: 20px;
+
+}
+li#nome_nav {
+    font-size: 1.6em;
+    padding-top: 16px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header > nav > li > span {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Poppins, Geneva, Tahoma, sans-serif;
+}
+li.links_navegacao {
+    font-size: 1.2em;
+    padding-top: 22px;
+
+    /* O "Sobre" está com css inline. padding-right: 26px; */
+}
+i.fa-github, i.fa-instagram{
+    color: black;
+    padding-right: 20px;
+    font-size: 1.8em;
+
+}
+.social {
+  display: flex;
+  gap: 20px;
+}
+
+.social i , a {
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.social a, i:hover {
+  color: #ccc;
+}
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover{
+    color: white;
+    transition: 0.5s;
+
+}
